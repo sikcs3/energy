@@ -7,7 +7,7 @@ error_reporting(E_ALL);
 $host = '127.0.0.1';
 $user = 'root';
 $pass = '';
-$db = 'energy_db';
+$db = 'railway';
 $port = 3307;
 
 if (!function_exists('mysqli_report') || !class_exists('mysqli')) {

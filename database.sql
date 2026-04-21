@@ -1,6 +1,6 @@
 -- Create database if it doesn't exist
-CREATE DATABASE IF NOT EXISTS energy_db;
-USE energy_db;
+CREATE DATABASE IF NOT EXISTS railway;
+USE railway;
 
 -- Table for Individual Unit appliances
 CREATE TABLE IF NOT EXISTS appliances (
