@@ -1,7 +1,7 @@
 {
   "$schema": "https://schema.railway.app/railwayapp-schema.json",
   "deploy": {
-    "startCommand": "frankenphp run --config /app/Caddyfile",
+    "startCommand": "php -S 0.0.0.0:$PORT",
     "healthcheckPath": "/",
     "healthcheckTimeout": 30
   }
